@@ -2,7 +2,6 @@ package com.javaproyecto.screenmatch.service;
 
 public class ConsumoAPI {
     public String obtenerDatos(String url){
-
             HttpClient client = HttpClient.newHttpClient();
             HttpRequest request = HttpRequest.newBuilder()
                     .uri(URI.create(url))
